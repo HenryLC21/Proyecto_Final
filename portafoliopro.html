@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristopher Ramirez C.">
+    <meta name="description" content="Portafolio de desarrollo web de Cristopher Ramirez">
+    <meta name="keywords" content="HTML, CSS, javascript, React, Developer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="Styless.css">
+
+    <!-- link para iconos de boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- links de fonts para letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!-- titulo de la red -->
+    <title>Portafolio de Desarrollo de Cristopher Ramirez</title>
+    <link rel="icon" href="./Imagenes/icono2.png">
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+
+    <nav class="navbar navbar-expand-md navbar-light">
+
+        <div class="container-fluid">
+            <!-- boton convertido de menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- cuando colapsa -->
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+
+                <a class="navbar-brand " href="#">
+                    <!-- logotipo -->
+                    <img src="./Imagenes/logo-pagina.jpg" width="80" alt="Logo de mi empresa">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Lproyec">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reserva">Reserva</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- seccion del hero -->
+    <section class="hero align-items-stretch" id="#inicio">
+        <div class="hero principal d-flex flex-column justify-content-between align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="./Imagenes/monitor-foto-portada.jpg"
+                alt="Cristopher Ramirez ">
+            <h1>Hola, Ofrecemo servicio de peraracion y limpieza a su computadoras</h1>
+            <h2>Estudiante universitario de ingenieria en sistemas</h2>
+
+        </div>
+
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen  img-fluid" src="./Imagenes/repa.jfif"
+                alt="Pc, Laptop, Logos en HTML, CSS, JS y React ">
+
+        </div>
+
+    </section>
+
+    <!-- seccion about me  -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a tu Técnico</h2>
+            <p class="seccion-texto">Estudiante de la universidad politecnica internacional en la carrera de ingenieria en sistemas </p>
+
+        </div>
+
+
+    </section>
+
+    <!-- seccion de Experiencia -->
+
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- desarrollo web  -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo reparacion laptops</p>
+                    <p>Celulares</p>
+                    <div class="badge-contenedor">
+                        <span class="badge text-bg-primary">Asus</span>
+                        <span class="badge text-bg-primary">HP</span>
+                        <span class="badge text-bg-primary">Lenovo</span>
+                        <span class="badge text-bg-primary">LG</span>
+                    </div>
+                </div>
+                <!-- mantenimiento PC -->
+
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Conocimiento en programas</p>
+                    <p>verificar, revisar y encontrar errores en el codigo para asegurarse de que el programa cumpla su cometido</p>
+                    <div class="badge-contenedor">
+                        <span class="badge text-bg-primary">HTML5</span>
+                        <span class="badge text-bg-primary">CSS3</span>
+                        <span class="badge text-bg-primary">JS6</span>
+                        <span class="badge text-bg-primary">React</span>
+
+
+                    </div>
+                </div>
+                <!-- El estudiante -->
+
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo reparacion de Computadoras</p>
+                    <p>Conocimiento verificar, revisar y encontrar errores parte de computadoras </p>
+                    <p>Conocimientos en sistema</p>
+                    <div class="badge-contenedor">
+                        <span class="badge text-bg-primary">Limpieza</span>
+                        <span class="badge text-bg-primary">Actualizar</span>
+                        <span class="badge text-bg-primary">Cambiar componentes</span>
+                        <span class="badge text-bg-primary">Reparacion</span>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!------------------ proyectos----------------------->
+    <section id="proyecto" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="secction-titulo  texto-negro"> Mis ultimos trabajos</h2>
+        <h3 class="seccion-descripcion">Estos son mis ultimos proyectos creados...</h3>
+        
+
+        <div class="container" id="Lproyec">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lUVWu45RpNg?si=h8J2yj7nU21wbY71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <!------------------ Galeria de proyectos ---------------------->
+        <div class="container text-center proyectos-contenedor" >
+            <div class="row">
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./Imagenes/proyecto1.webp" alt="img del proyecto 1">
+                        <div class="overlay">
+                            <a href="">
+                                <p>proyecto 1</p>
+                                <div class="iconos-contenedor">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 2 -->
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./Imagenes/laptop.jfif" alt="img del proyecto 1">
+                        <div class="overlay">
+                            <a href="">
+                                <p>proyecto 2</p>
+                                <div class="iconos-contenedor">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./Imagenes/proyecto3.jpg" alt="img del proyecto 1">
+                        <div class="overlay">
+                            <a href="">
+                                <p>proyecto 3</p>
+                                <div class="iconos-contenedor">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./Imagenes/reparacion-de-computadores.jpg" alt="img del proyecto 1">
+                        <div class="overlay">
+                            <a href="">
+                                <p>proyecto 4</p>
+                                <div class="iconos-contenedor">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./Imagenes/proyecto5.jpg" alt="img del proyecto 1">
+                        <div class="overlay">
+                            <a href="">
+                                <p>proyecto 5</p>
+                                <div class="iconos-contenedor">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./Imagenes/proyecto6.webp" alt="img del proyecto 1">
+                        <div class="overlay">
+                            <a href="">
+                                <p>proyecto 6</p>
+                                <div class="iconos-contenedor">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-------------------------- opinion de nuestros clientes ----------------------->
+
+    <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo"> Opiniones de los clientes</h2>
+        <h3 class="seccion-descripcion">Asi opinan mis clientes....</h3>
+
+        <!-- carrusel -->
+
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./Imagenes/cliente1.jpg" alt="Foto cliente">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+                            ratione repellendus hic maiores, dolorem rem in debitis.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente"> MIguel gutierez Garcia</p>
+                            <p class="cargo">Gerente de tienda nail</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item ">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./Imagenes/cliente2.webp" alt="Foto cliente">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+                            ratione repellendus hic maiores, dolorem rem in debitis.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente"> Johana Benavides Salazar</p>
+                            <p class="cargo">Gerente de zapateria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./Imagenes/cliente3.jpg" alt="Foto cliente">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+                            ratione repellendus hic maiores, dolorem rem in debitis.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente"> Ramon Soto Gutierrez </p>
+                            <p class="cargo">Gerente de cafeteria La Taza de Te</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+
+    </section>
+
+
+    <section id="reserva" class="reserva">
+        <h2>Formulario de Reserva</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre de la recerva:</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="Descripcion">Descripcion Dispositivo</label>
+                <input type="text" class="form-control" id="Descripcion" required>
+            </div>
+            <div class="form-group">
+                <label for="pago">Forma de Pago:</label>
+                <select class="form-control" id="pago">
+                    <option>Tarjeta de Crédito</option>
+                    <option>Paypal</option>
+                    <option>Transferencia Bancaria</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" class="form-control" id="direccion" required>
+            </div>
+            <div class="form-group">
+                <label for="celular">Celular:</label>
+                <input type="tel" class="form-control" id="celular" required>
+            </div>
+            <div class="form-group">
+                <label for="telFijo">Teléfono Fijo:</label>
+                <input type="tel" class="form-control" id="telFijo" required>
+            </div>
+            <div class="form-group">
+                <label for="Servicio">Servicios</label>
+                <select multiple class="form-control" id="Servicio">
+                    <option>Servicio 1 (Limpieza) </option>
+                    <option>Servicio 2 (Formatear)</option>
+                    <option>Servicio 3 (Actualizar)</option>
+                    <option>Servicio 4 (Cambiar componentes)</option>
+                    <option>Servicio 5 (Reparacion)</option>
+                    <option>Servicio 6 (Cambio pasta termica)</option>
+                    <option>Servicio 7 (Otro)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dispositivo">tipo dispositivos</label>
+                <select multiple class="form-control" id="dispositivos">
+                    <option>Laptop</option>
+                    <option>Computadoras </option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contactame 
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="">
+                            <button type="button">
+                                contacto
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <p>Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="footer-copy">Creado por estudiante Henry (2024) &copy;</p>
+        </div>
+    </footer>
+    <a href="#top" id="back-to-top">
+        <i class="bi bi-arrow-up"></i> 
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
